@@ -7,7 +7,7 @@
 
 namespace App\Test;
 
-use App\EmailVaidator;
+use App\EmailValidator;
 
 class EmailValidatorTest extends \PHPUnit\Framework\TestCase {
 
