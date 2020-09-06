@@ -7,7 +7,7 @@
 
 namespace App\Tests;
 
-use App\EmailValidator;
+use EmailValidator; 
 
 class EmailValidatorTest extends \PHPUnit\Framework\TestCase {
 
@@ -22,7 +22,7 @@ class EmailValidatorTest extends \PHPUnit\Framework\TestCase {
     /**
      * @dataProvider additionWithValidResultProvider
      */
-    public function testvalidResult($email) {
+    public function testValidResult($email) {
         $emailValidator = new EmailValidator();
         $this->assertTrue($emailValidator->validate($email));
     }
