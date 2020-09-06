@@ -5,7 +5,7 @@
 
 // use PHPUnit\Framework\TestCase;
 
-namespace App\Test;
+namespace App\Tests;
 
 use App\EmailValidator;
 
