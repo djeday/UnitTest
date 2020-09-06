@@ -1,9 +1,13 @@
 <?php
 
 // require '../vendor/autoload.php';
-require '../validation/EmailValidator.php';
+// require '../validation/EmailValidator.php';
 
 // use PHPUnit\Framework\TestCase;
+
+namespace App\Test;
+
+use App\EmailVaidator;
 
 class EmailValidatorTest extends \PHPUnit\Framework\TestCase {
 

@@ -1,5 +1,7 @@
 <?php
 
+namespace App;
+
 require_once 'ValidatorInterface.php';
 
 class EmailValidator implements ValidatorInterface {
