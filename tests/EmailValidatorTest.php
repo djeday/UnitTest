@@ -5,9 +5,9 @@
 
 // use PHPUnit\Framework\TestCase;
 
-namespace App\Tests;
+namespace App\Test;
 
-use EmailValidator; 
+use App\EmailValidator; 
 
 class EmailValidatorTest extends \PHPUnit\Framework\TestCase {
 
