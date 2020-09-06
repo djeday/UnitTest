@@ -1,11 +1,11 @@
 <?php
 
-require '../vendor/autoload.php';
+// require '../vendor/autoload.php';
 require '../validation/EmailValidator.php';
 
-use PHPUnit\Framework\TestCase;
+// use PHPUnit\Framework\TestCase;
 
-class EmailValidatorTest extends TestCase {
+class EmailValidatorTest extends \PHPUnit\Framework\TestCase {
 
     /**
      * @dataProvider additionWithInvalidResultProvider
